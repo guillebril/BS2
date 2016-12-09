@@ -1,0 +1,346 @@
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #484848;
+}
+
+p {margin-top: 0px;}
+
+@media (min-width: 1200px){
+.container {
+    width: 1130px !important;
+    max-width: 100%;
+}}
+
+@media (min-width: 992px){
+.container {
+    width: 970px;
+}}
+
+
+
+
+.panel{
+	width: 100%;
+	background-color: white;
+
+	border-radius: 3px; 
+	padding-left: 15px;
+
+	padding-top: 10px;
+	padding-right: 15px;
+	margin-top: 15px;
+}
+
+.main-col{
+	padding-right: 0px;
+}
+
+hr{
+
+	background-color: #ddd; 
+	height: 1px; 
+	border: 0;
+}
+
+.cover img{
+ max-width: 100%;
+ margin: auto;
+
+}
+
+
+.primary-btn{
+	padding: 10px;
+	border-radius: 3px;
+	border: 0px;
+	margin-top: 20px;
+	color: white;
+	background-color: #236cb0;
+
+}
+
+/*=======  header =========*/
+
+.logo{
+	display: flex;
+	padding-top: 8px;
+}
+.logo p{
+	margin: auto;
+	padding-left: 8px;
+}
+.logo img{
+  border-radius: 100px;
+  height: 70px;	
+}
+
+
+h1{
+	font-size: 25px;
+	line-height: 25px;
+	margin-bottom: 10px;
+}
+
+.doodle{
+	padding-right: 0px;
+}
+
+.doodle-text{
+	padding-left: 0px;
+}
+
+.time-doodle{
+	padding-right: 55px;
+}
+
+/*=======  booking container =========*/
+.book-menu{
+
+	position: absolute;
+	width: 315px;
+	margin-top: -41px;
+	padding: 0;
+
+}
+
+.book-it{
+	background-color: #fff;
+	margin-top: 0;
+	padding-top: 20px;
+	border: solid 1px #ddd;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+
+}
+
+.price-num{
+	margin-top: 0;
+	margin-bottom: 25px;
+	display: inline;
+	font-size: 22px;
+	font-weight: 600;
+	z-index: 3;
+
+}
+
+.price-container{
+	background-color: rgba(49, 49, 49, 0.90);
+	height: 40px;
+	color: white;
+	padding: 6px 15px;
+	width: 315px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	letter-spacing: 0.7px;
+
+
+}
+
+.per-week{
+	padding-top: 4px;
+	float: right;
+}
+
+select{
+	background-color: white;
+	height: 40px;
+	width: 100%;
+	-webkit-appearance: none;
+	border-radius: 3px;
+	padding-left: 7px;
+	border-color: #ccc;
+}
+
+.drop{
+	margin-top: 10px; 
+	-webkit-appearance: none;
+   -moz-appearance:    none;
+   appearance:         none;
+}
+
+.full-btn{
+
+	width: 100%
+}
+
+
+/*=======  Course content =========*/
+
+h3{
+	margin: 10px 0px;
+	font-size: 22px;
+}
+
+h4{
+	margin: 25px 0 5px 0;
+}
+.item{
+	padding-top: 3px;
+	padding-bottom:3px;
+}
+
+
+.price-table tr{
+	border: 1px solid #ddd;
+
+}
+
+.price-table th, .price-table td{
+	text-align: left;
+	padding: 5px;
+
+}
+.price-table td+ td{
+	text-align: center;
+
+}
+.price-table{
+	min-width: 215px;
+}
+
+
+
+/*=======  Navigation =========*/
+
+nav{
+	position: fixed;
+	top:0;
+	width: 100%;
+	height: 40px;
+	padding-top: 3px;
+	z-index: 2;
+	background-color:  #484848;
+
+
+}
+
+nav .nav-buttons{
+	list-style: none;
+	margin: 5px 0px;
+	padding: 0px;
+}
+
+nav .nav-buttons .nav-item{
+	font-size: 14px;
+	display: inline;
+	letter-spacing: 0.7px;
+	padding: 0 2px 8px 1px;
+	margin:0 10px;
+	color: #bbb;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+}
+nav .nav-buttons .nav-item.active{
+	color: white;
+	border-bottom: 4px solid #bbb;
+	-webkit-font-smoothing: auto;
+	-moz-osx-font-smoothing: auto;
+}
+
+nav .nav-buttons .nav-item:hover{
+	color: white;
+
+}
+
+#program-nav{
+	opacity: 0;
+	-webkit-transition: opacity 0.15s ease-in-out;
+  -moz-transition: opacity 0.15s ease-in-out;
+  -ms-transition: opacity 0.15s ease-in-out;
+  -o-transition: opacity 0.15s ease-in-out;
+  transition: opacity 0.15s ease-in-out;
+}
+/*=======  Gallery =========*/
+.my-gallery figcaption {
+  display: none;
+}
+
+.my-gallery img{
+	height: 150px;
+	width: 100%;
+	padding-bottom: 15px;
+	object-fit: cover;
+	object-position: 50% 70%;
+}
+
+.my-gallery .col-md-4, .my-gallery  .col-md-8 {
+	padding-left: 7px;
+	padding-right: 7px;
+
+}
+img.side-pic{
+	height: 142px
+
+}
+.my-gallery {
+	display: inline;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.panel .video{
+	padding-top: 20px;
+	padding-left: 8px;
+	padding-right: 0;
+}
+
+.photos-videos{
+	padding-left: 22px;
+	padding-right: 22px;
+}
+
+
+
+
+/*=======  REVIEWS =========*/
+
+.person{
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.profile-pic{
+	border-radius: 100px;
+	display: inline-block;
+	vertical-align: middle;
+
+}
+
+.profile-pic img{
+	width: 50px;
+	display: block;
+
+}
+
+.name-rating{
+	margin-left: 15px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.name-rating span{
+	display: block
+}
+
+
+
+/*=============== MAP=============*/
+
+
+#map {
+        height: 650px;
+        width: 100%;
+		padding-top: 20px;
+		margin-bottom: 20px;	
+
+       }
+
+
+
+
+
+
+
