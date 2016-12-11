@@ -27,9 +27,8 @@ p {margin-top: 0px;}
 	border-radius: 3px; 
 	padding-left: 15px;
 
-	padding-top: 10px;
 	padding-right: 15px;
-	margin-top: 15px;
+/*	margin-top: 15px;*/
 }
 
 .main-col{
@@ -90,9 +89,15 @@ h1{
 	padding-left: 0px;
 }
 
+.doodle-text.doodle1{
+	width: 100px;
+	margin-right: 80px;
+}
+
 .time-doodle{
 	padding-right: 55px;
 }
+
 
 /*=======  booking container =========*/
 .book-menu{
@@ -180,6 +185,10 @@ h4{
 	padding-bottom:3px;
 }
 
+
+.description{
+	padding-bottom: 10px
+}
 
 .price-table tr{
 	border: 1px solid #ddd;
